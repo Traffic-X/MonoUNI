@@ -14,14 +14,14 @@ In this paper, by taking into account thediversity of pitch angles and focal len
 - [x] create repo
 - [ ] release init train/val code
 - [ ] support Rope3D dataset
-- [ ] support DARI-V2X-C dataset
+- [ ] support DAIR-V2X-C dataset
 - [ ] support KITTI dataset
 
 
 ## Dataset
 Download the KITTI dataset from [**KITTI website**](https://www.cvlibs.net/datasets/kitti/index.php)
 Download the Rope3D dataset from [**Rope3D website**](https://thudair.baai.ac.cn/rope)
-Download the Dair-V2X-C dataset from [**Dair-V2X-C website**](https://thudair.baai.ac.cn/rope)
+Download the DAIR-V2X-C dataset from [**DAIR-V2X-C website**](https://thudair.baai.ac.cn/rope)
 
 ## Installation
 Install the following environments:
