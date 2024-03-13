@@ -2,7 +2,7 @@
 
 :fire::fire:**[NeurIPS 2023]** The official implementation of the paper "[MonoUNI: A Unified Vehicle and Infrastructure-side Monocular 3D Object Detection Network with Sufficient Depth Clues](https://openreview.net/pdf?id=v2oGdhbKxi)"
 
-:fire::fire:|[Paper](https://openreview.net/pdf?id=v2oGdhbKxi) | [MonoUNI微信解读](https://mp.weixin.qq.com/s/NpLjZT2yuiV-dhIyTcdYRw)
+:fire::fire:| [Paper](https://openreview.net/pdf?id=v2oGdhbKxi) | [MonoUNI微信解读](https://mp.weixin.qq.com/s/NpLjZT2yuiV-dhIyTcdYRw)
 
  <div align=center> <img title='MonoUNI' src="imgs/MonoUNI_Poster.png"> </div>
 
