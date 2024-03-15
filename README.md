@@ -12,6 +12,7 @@ In this paper, by taking into account thediversity of pitch angles and focal len
 ## News
 
 - [x] create repo
+- [x] release Rope3D && KITTI ImageSets
 - [ ] release init train/val code
 - [ ] support Rope3D dataset
 - [ ] support DAIR-V2X-C dataset
