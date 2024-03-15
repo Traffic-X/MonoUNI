@@ -15,7 +15,7 @@ In this paper, by taking into account thediversity of pitch angles and focal len
 - [x] release Rope3D && KITTI ImageSets
 - [ ] release init train/val code
 - [ ] support Rope3D dataset
-- [ ] support DAIR-V2X-C dataset
+- [ ] support DAIR-V2X-I dataset
 - [ ] support KITTI dataset
 
 
