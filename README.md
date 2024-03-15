@@ -23,9 +23,9 @@ In this paper, by taking into account thediversity of pitch angles and focal len
 
 ## Dataset
 - Download the official KITTI dataset from [**KITTI website**](https://www.cvlibs.net/datasets/kitti/index.php).
-- Download the official Rope3D dataset from [**Rope3D website**](https://thudair.baai.ac.cn/rope). 
-(1) We re-merged the obstacles in the original Rope3D into 4 categories ('car','big_vehicle','pedestrian','cyclist'), and used the official toolkit to perform ROI filtering on the ground truth, and obtained the [**final ground truth**](https://pan.baidu.com/s/1lDwPYRAPt7Bjiaj_hzEA2g?pwd=rnb5)(32.6MB) that can be used directly.
-(2) For MonoUNI, we generated [**3D Cube Depth data**](https://pan.baidu.com/s/1rbuvtV7JYtJ01Kuytl7RMA?pwd=mnqv)(1.37GB) based on the original labels (no additional data used) for sufficient depth clues.
+- Download the official Rope3D dataset from [**Rope3D website**](https://thudair.baai.ac.cn/rope).  
+- [x] We re-merged the obstacles in the original Rope3D into 4 categories ('car','big_vehicle','pedestrian','cyclist'), and used the official toolkit to perform ROI filtering on the ground truth, and obtained the [**final ground truth**](https://pan.baidu.com/s/1lDwPYRAPt7Bjiaj_hzEA2g?pwd=rnb5)(32.6MB) that can be used directly.
+- [x] For MonoUNI, we generated [**3D Cube Depth data**](https://pan.baidu.com/s/1rbuvtV7JYtJ01Kuytl7RMA?pwd=mnqv)(1.37GB) based on the original labels (no additional data used) for sufficient depth clues.
 - Download the official DAIR-V2X-C dataset from [**DAIR-V2X-C website**](https://thudair.baai.ac.cn/rope).
 
 ## Installation
