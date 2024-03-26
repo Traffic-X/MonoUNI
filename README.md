@@ -74,7 +74,7 @@ pip install torch==1.5.0 torchvision==0.6.0 pyyaml scikit-image opencv-python nu
 ## Eval
 - [x] Rope3D dataset  
 
-    modify the 'root_dir' in config.yaml, use your own path to the downloaded 'Rope3D_data'
+    modify the 'root_dir' in config.yaml, use your own path to the downloaded 'Rope3D_data'  
     modify the 'resume_model' in config.yaml (tester), use your own path to checkpoint
     ~~~
     bash eval.sh
