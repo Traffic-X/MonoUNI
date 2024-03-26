@@ -85,7 +85,7 @@ url={https://openreview.net/forum?id=v2oGdhbKxi}
 ~~~
 ## Acknowledgements
 Many thanks to following codes that help us a lot in building this codebase:
-- [GUPNer](https://github.com/SuperMHP/GUPNet/tree/main) 
+- [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) 
 - [DID-M3D](https://github.com/SPengLiang/DID-M3D)
 - [MonoLSS](https://github.com/Traffic-X/MonoLSS)
 - [BEVHeight](https://github.com/ADLab-AutoDrive/BEVHeight)
