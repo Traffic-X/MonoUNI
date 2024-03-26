@@ -44,10 +44,10 @@ trainer:
   eval_frequency: 10 # evaluation interval (in epoch)
   save_frequency: 10 # checkpoint save interval (in epoch)
   disp_frequency: 200 # display interval (in batch)
-  log_dir: 'output_guangfang/rope3d'
-  out_dir: 'output_guangfang/rope3d'
+  log_dir: 'output/rope3d'
+  out_dir: 'output/rope3d'
   # resume_model: '/your/path/to/checkpoint_epoch_40.pth'  
 tester:
   threshold: 0.2  # confidence filter
-  out_dir: 'output_guangfang/rope3d_eval'
+  out_dir: 'output/rope3d_eval'
   resume_model: '/your/path/to/checkpoint_epoch_150.pth'
