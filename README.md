@@ -22,10 +22,11 @@ In this paper, by taking into account thediversity of pitch angles and focal len
 ## Installation
 Install the following environments:
 ~~~
-python 3.7
-torch 1.3.1
-torchvision 0.4.2
+python 3.8
+torch 1.5.0
+torchvision 0.6.0
 ~~~
+ You can also follow the install instructions in [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) or [DID-M3d](https://github.com/SPengLiang/DID-M3D) (This respository is based on them) to perform experiments with other PyTorch/GPU versions.
 
 ## Dataset
 - [x] Download the official Rope3D dataset from [**Here**](https://pan.baidu.com/s/1Tt014qMNcDxAMCkEWH_EZQ?pwd=d1yd).  
