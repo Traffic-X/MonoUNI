@@ -34,25 +34,16 @@ torchvision 0.6.0
     tar -zxvf Rope3D_data.tar.gz
     ~~~
     The directory will be as follows:
-    Rope3D_data
-
-    ├── box3d_depth_dense
-
-    ├── calib
-
-    ├── denorm
-
-    ├── extrinsics
-
-    ├── image_2
-
-    ├── ImageSets
-
-    ├── label_2
-
-    ├── label_2_4cls_filter_with_roi_for_eval
-
-    └── label_2_4cls_for_train
+    Rope3D_data  
+    ├── box3d_depth_dense  
+    ├── calib  
+    ├── denorm  
+    ├── extrinsics  
+    ├── image_2  
+    ├── ImageSets  
+    ├── label_2  
+    ├── label_2_4cls_filter_with_roi_for_eval  
+    └── label_2_4cls_for_train  
 
 - [ ] Support the DAIR-V2X-I dataset
 - [ ] Support the KITTI dataset
