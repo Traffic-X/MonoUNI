@@ -20,13 +20,26 @@ In this paper, by taking into account thediversity of pitch angles and focal len
 - [ ] support KITTI dataset
 
 ## Installation
-Install the following environments:
+a. Clone this repository.
 ~~~
-python 3.8
-torch 1.5.0
-torchvision 0.6.0
+git clone https://github.com/Traffic-X/MonoUNI
 ~~~
- You can also follow the install instructions in [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) or [DID-M3D](https://github.com/SPengLiang/DID-M3D) (This respository is based on them) to perform experiments with other PyTorch/GPU versions.
+
+b. Install the dependent libraries as follows:
+* Create a new env with conda
+~~~
+conda create -n rope3d python=3.8
+~~~
+
+* Activate the env
+~~~
+conda activate rope3d
+~~~
+
+* Install the dependent python libraries:
+~~~
+pip install torch==1.5.0 torchvision==0.6.0 pyyaml scikit-image opencv-python numba tqdm matplotlib protobuf
+~~~
 
 ## Dataset
 - [x] Download the official Rope3D dataset from [**Here**](https://pan.baidu.com/s/1Tt014qMNcDxAMCkEWH_EZQ?pwd=d1yd).  
