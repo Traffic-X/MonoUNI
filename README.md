@@ -38,7 +38,7 @@ conda activate rope3d
 
 * Install the dependent python libraries:
 ~~~
-pip install torch==1.5.0 torchvision==0.6.0 numpy==1.23.5 numba==0.53.0 scikit-image==0.20.0 opencv-python==3.4.10.37 tqdm==4.65.0 matplotlib==3.7.1 protobuf==4.22.1 pyyaml==6.0
+pip install torch==1.5.0 torchvision==0.6.0 numpy==1.23.5 numba==0.58.1 scikit-image==0.21.0 opencv-python==3.4.10.37 tqdm==4.65.0 matplotlib==3.7.1 protobuf==4.22.1 pyyaml==6.0
 ~~~
 
 ## Dataset
