@@ -49,7 +49,8 @@ torchvision 0.6.0
 - [ ] Support the KITTI dataset
 
 ## Train
-- [x] Rope3D dataset
+- [x] Rope3D dataset 
+
     modify the 'root_dir' in config.yaml, use your own path to the downloaded 'Rope3D_data'
     ~~~
     bash train.sh
@@ -58,7 +59,8 @@ torchvision 0.6.0
 - [ ] KITTI dataset
 
 ## Eval
-- [x] Rope3D dataset
+- [x] Rope3D dataset  
+
     modify the 'root_dir' in config.yaml, use your own path to the downloaded 'Rope3D_data'
     modify the 'resume_model' in config.yaml (tester), use your own path to checkpoint
     ~~~
