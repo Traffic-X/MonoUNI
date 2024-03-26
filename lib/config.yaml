@@ -1,0 +1,53 @@
+random_seed: 414
+
+dataset:
+  type: 'rope3d'
+  root_dir: '/your/path/to/Rope3D_data/'
+  batch_size: 8
+  class_merging: False
+  use_dontcare: False
+  use_3d_center: False
+  load_data_once: False
+  crop_with_optical_center: True
+  writelist: ['car','big_vehicle','pedestrian','cyclist']
+  eval_cls: ['car','big_vehicle','pedestrian','cyclist']
+  random_flip: 0.5
+  random_crop: 0.5
+  scale: 0.66
+  shift: 0.1
+  scale_expand : 1.5
+  interval_min: [0,30,60,90,120]
+  interval_max: [40,70,100,130,180]
+
+model:
+  type: 'monouni'
+  backbone: 'dla34'
+  neck: 'DLAUp'
+  cls_num: 4
+  multi_bin: True
+  interval_min: [0,30,60,90,120]
+  interval_max: [40,70,100,130,180]
+
+optimizer:
+  type: 'adam'
+  lr: 0.00125
+  weight_decay: 0.00001
+
+ 
+lr_scheduler:
+  warmup: True  # 5 epoches, cosine warmup, init_lir=0.00001 in default
+  decay_rate: 0.1
+  decay_list: [90, 120]
+
+trainer:
+  max_epoch: 150
+  eval_frequency: 10 # evaluation interval (in epoch)
+  save_frequency: 10 # checkpoint save interval (in epoch)
+  disp_frequency: 200 # display interval (in batch)
+  log_dir: 'output_guangfang/rope3d'
+  out_dir: 'output_guangfang/rope3d'
+  # resume_model: '/your/path/to/checkpoint_epoch_40.pth'  
+tester:
+  threshold: 0.2  # confidence filter
+  out_dir: 'output_guangfang/rope3d_eval'
+  resume_model: '/your/path/to/checkpoint_epoch_150.pth'
