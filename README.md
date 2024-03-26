@@ -46,7 +46,7 @@ pip install torch==1.5.0 torchvision==0.6.0 pyyaml scikit-image opencv-python nu
     ~~~
     tar -zxvf Rope3D_data.tar.gz
     ~~~
-    The directory will be as follows:
+    The directory will be as follows:  
     Rope3D_data  
     ├── box3d_depth_dense  
     ├── calib  
