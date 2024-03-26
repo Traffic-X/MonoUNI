@@ -26,7 +26,7 @@ python 3.8
 torch 1.5.0
 torchvision 0.6.0
 ~~~
- You can also follow the install instructions in [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) or [DID-M3d](https://github.com/SPengLiang/DID-M3D) (This respository is based on them) to perform experiments with other PyTorch/GPU versions.
+ You can also follow the install instructions in [GUPNet](https://github.com/SuperMHP/GUPNet/tree/main) or [DID-M3D](https://github.com/SPengLiang/DID-M3D) (This respository is based on them) to perform experiments with other PyTorch/GPU versions.
 
 ## Dataset
 - [x] Download the official Rope3D dataset from [**Here**](https://pan.baidu.com/s/1Tt014qMNcDxAMCkEWH_EZQ?pwd=d1yd).  
@@ -85,8 +85,8 @@ url={https://openreview.net/forum?id=v2oGdhbKxi}
 ~~~
 ## Acknowledgements
 Many thanks to following codes that help us a lot in building this codebase:
-- [GUPNET](https://github.com/SuperMHP/GUPNet/tree/main) 
-- [DID-M3d](https://github.com/SPengLiang/DID-M3D)
+- [GUPNer](https://github.com/SuperMHP/GUPNet/tree/main) 
+- [DID-M3D](https://github.com/SPengLiang/DID-M3D)
 - [MonoLSS](https://github.com/Traffic-X/MonoLSS)
 - [BEVHeight](https://github.com/ADLab-AutoDrive/BEVHeight)
 
