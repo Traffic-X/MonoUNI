@@ -88,12 +88,13 @@ Download the checkpoint (Rope3D) from [**here**](https://pan.baidu.com/s/13H8CJz
 ## citation
 If you find MonoUNI useful in your research, please consider giving a star ⭐ and citing:
 ~~~
-@inproceedings{jia2023monouni,
-title={MonoUNI: A Unified Vehicle and Infrastructure-side Monocular 3D Object Detection Network with Sufficient Depth Clues},
-author={Jinrang Jia and Zhenjia Li and Yifeng Shi},
-booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-year={2023},
-url={https://openreview.net/forum?id=v2oGdhbKxi}
+@article{jinrang2023monouni,
+  title={Monouni: A unified vehicle and infrastructure-side monocular 3d object detection network with sufficient depth clues},
+  author={Jinrang, Jia and Li, Zhenjia and Shi, Yifeng},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={11703--11715},
+  year={2023}
 }
 ~~~
 ## Acknowledgements
